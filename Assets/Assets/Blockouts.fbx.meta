@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: 263743134d4aba34eba0a8c5dd51b132
+ModelImporter:
+  serializedVersion: 24300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BLOCKOUTS(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.001
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 1.5890853, y: 1.426036, z: 4.579058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.002
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.003
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.004
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.005
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.006
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.2904615, y: 1.2182542, z: 1.998833}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.007
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.008
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 2.0776715, y: 0.00000047683716, z: 3.8779771}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.009
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0.61568546, y: 0.0023962737, z: 4.650928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.010
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0.7088608, y: 0, z: -1.1702652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.011
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0.34327036, y: 1.6545317, z: -5.1909513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.012
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.3720245, y: 0.5035881, z: -0.5304375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.013
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 0.17157072, y: 0.017180622, z: -0.4598294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.014
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.9454784, y: 2.892098, z: -3.5556903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.015
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 0.5578373, y: 1.7556392, z: -5.8438644}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.016
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 0.5845165, y: 0.7162008, z: -5.2139845}
+      rotation: {x: 0.7071068, y: -0.7071067, z: 0.00000013767877, w: -0.00000013767878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.017
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.018
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.2904615, y: 1.2684673, z: 1.9579644}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.019
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.4790115, y: -0.4924281, z: -4.1596155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.020
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.2904615, y: 1.3144414, z: 2.0136292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.021
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.407248, y: 3.5402234, z: 5.0987153}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.022
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.2904615, y: 1.3653506, z: 2.0021904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.023
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.143587, y: 3.7367556, z: 5.039672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.024
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.96347237, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.025
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.026
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.211481, y: 3.5833545, z: -3.7189217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.027
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.028
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.8173361, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.029
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.65883, y: 0.69183195, z: -4.2959547}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.030
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.65883, y: 0.69183195, z: -5.0879526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.031
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.65883, y: 0.00000047683716, z: -3.811113}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.032
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.65883, y: 0.1428886, z: -4.539009}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.033
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.8173361, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.034
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.8173361, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.035
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.036
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.8173361, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.037
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.345493, y: 1.5777061, z: -3.281455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.038
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -3.2328486, y: 0.45386168, z: -3.2340853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.039
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.26451, y: 0.06499088, z: -0.40028572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.040
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.987933, y: 2.35712, z: -2.5865073}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.041
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.7990375, y: 3.6804068, z: -5.4131575}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.042
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 3.71007, y: 2.4111452, z: -5.6298532}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.043
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.9454784, y: 2.892098, z: -3.5556903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.044
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 3.71007, y: 2.4111452, z: -5.6298532}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.045
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.9454784, y: 2.892098, z: -3.5556903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.046
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.9454784, y: 2.892098, z: -3.5556903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.047
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.6095424, y: 2.894912, z: -5.6186047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.048
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.7809887, y: 0.8173361, z: -2.8654723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.049
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.34231, y: 1.5999213, z: 4.7247405}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.050
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.34231, y: 1.6501346, z: 4.6414595}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.051
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.34231, y: 1.6961088, z: 4.7169847}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.052
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.34231, y: 1.7470177, z: 4.633794}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.053
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -1.4769621, y: 0.7778385, z: -5.2094517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.054
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -1.7498356, y: 1.5006722, z: -5.2094517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.055
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -2.021019, y: 0.07616681, z: -5.2094517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.056
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -1.130883, y: 0.07616681, z: -5.2094517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.057
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 0.274737, y: 0.46851462, z: -5.2094517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.058
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0.27560392, y: 1.5236592, z: -5.1909513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.059
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.7969775, y: -0.5485159, z: 4.5751095}
+      rotation: {x: -0, y: -0.70710677, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.060
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.251468, y: 3.7367556, z: 5.039672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.061
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 2.0163631, y: 1.5345061, z: 4.912694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.062
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.9453297, y: 2.4136074, z: -1.6294503}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.063
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.9453297, y: 1.7562546, z: -1.6294503}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.064
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.945329, y: 1.4884256, z: -1.4394685}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.065
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.945329, y: 0.5625247, z: -0.61320454}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.066
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.959789, y: 0.06499081, z: -1.6346133}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.067
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.959789, y: 0.06499081, z: -0.80218107}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.068
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.959789, y: 0.06499081, z: 0.12099801}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.069
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.9056983, y: 1.7098554, z: -4.812643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.070
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.901192, y: 1.5907665, z: -4.1799374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.071
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.901192, y: 1.6409795, z: -4.2208056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.072
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.901192, y: 1.6869539, z: -4.165141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.073
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.901192, y: 1.737863, z: -4.17658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.074
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.832015, y: 3.4014642, z: -0.40028584}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.075
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 1.0484312, y: 1.5006716, z: -5.205936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.076
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 3.1433191, y: 1.5006721, z: -5.5855637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.077
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.8070326, y: 1.4884256, z: -1.2340995}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.078
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.945329, y: 1.4884256, z: -1.5541668}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.079
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.9453297, y: 1.7562546, z: -1.3840759}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.080
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.8070326, y: 1.4884256, z: -1.2340995}
+      rotation: {x: 0.7071068, y: -2.2148508e-23, z: -1.5700927e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.081
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.082
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.9135222, y: 1.9824396, z: 0.06787382}
+      rotation: {x: 1, y: 1.1102228e-16, z: -1.1102234e-16, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.083
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.7702255, y: 0.00000047683716, z: 3.4115763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.084
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.110294, y: 2.7565672, z: 1.3396925}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.085
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.5538135, y: 2.9909759, z: 1.4891055}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.086
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -5.26451, y: 3.3767939, z: 1.2574718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0.7138853, y: 0.9757983, z: 2.7464616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.001
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.323485, y: 0.6292359, z: 1.898195}
+      rotation: {x: 0, y: 0.659402, z: -0, w: 0.7517905}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cylinder.002
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.6063566, y: 0.4198947, z: 3.3269331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.003
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.606357, y: 0.9046346, z: 3.3269331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.004
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -3.1815693, y: -0.26976186, z: -0.73607296}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.005
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.199921, y: 1.3698039, z: 1.5320307}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.006
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.606357, y: 1.7050985, z: 4.641162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.007
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 5.996489, y: 3.1291149, z: -3.9931934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.008
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.723918, y: 3.163619, z: -5.6247587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.009
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 4.946127, y: 1.7050985, z: 4.641162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.010
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.6327977, y: 1.6463106, z: -4.0654893}
+      rotation: {x: 0.12114978, y: 0.018679993, z: 0.20794886, w: 0.9704283}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Cylinder.012
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 2.1391602, y: 1.8138195, z: -5.09927}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.013
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.3787746, y: 1.6280354, z: -3.8258662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.014
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.6327977, y: 1.6463106, z: -4.0654893}
+      rotation: {x: 0.12114978, y: 0.018679993, z: 0.20794886, w: 0.9704283}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Iguana
+      parentName: BLOCKOUTS(Clone)
+      position: {x: 1.6452175, y: 1.34482, z: 4.3230777}
+      rotation: {x: -0.00000001545431, y: 0.7071067, z: 0.000000015454306, w: 0.7071068}
+      scale: {x: 0.025400003, y: 0.025400003, z: 0.025400003}
+    - name: Plane
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -2.8947804, y: 0.016092509, z: 4.843476}
+      rotation: {x: 0.00000012329342, y: 0.7943866, z: -0.60741246, w: 0.00000015082988}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Top
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.8957915, y: 1.6068377, z: -3.2646358}
+      rotation: {x: -0.00013762494, y: 0.70703787, z: 0.009871678, w: 0.70710677}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: pCylinder1
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -4.8957915, y: 1.6068377, z: -3.2646358}
+      rotation: {x: -0.00013762494, y: 0.70703787, z: 0.009871678, w: 0.70710677}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: polySurface203
+      parentName: BLOCKOUTS(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
