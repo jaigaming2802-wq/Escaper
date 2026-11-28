@@ -19,7 +19,7 @@ public class ObjectFallDetection : MonoBehaviour
         if (hasFallen)
             return;
 
-        if (collision.gameObject.CompareTag("Floor"))
+        if (collision.gameObject.CompareTag("Floor") || collision.gameObject.CompareTag("Table"))
         {
             hasFallen = true;
 
@@ -27,7 +27,7 @@ public class ObjectFallDetection : MonoBehaviour
 
             OnObjectFallen?.Invoke(originalPosition, fallenPosition);
 
-            Debug.Log(gameObject.name + " fell on the floor!");
+            Debug.Log(gameObject.name + " collided with Floor or Table!");
         }
     }
 }
