@@ -1,5 +1,5 @@
+
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerLook : MonoBehaviour
 {
@@ -15,10 +15,8 @@ public class PlayerLook : MonoBehaviour
 
     void Start()
     {
-
         if (target == null)
         {
-
             enabled = false;
             return;
         }
@@ -28,26 +26,19 @@ public class PlayerLook : MonoBehaviour
 
         yaw = transform.eulerAngles.y;
         pitch = transform.eulerAngles.x;
-        if (pitch > 180f) pitch -= 360f;
 
-        offset = Quaternion.Inverse(transform.rotation) * (transform.position - target.position);
-    }
+        if (pitch > 180f)
+            pitch -= 360f;
 
-    void LateUpdate()
-    {
-        if (Mouse.current == null)
-        {
-
-            return;
-        }
-
-        ProcessLook(Mouse.current.delta.ReadValue());
+        offset = Quaternion.Inverse(transform.rotation) *
+                 (transform.position - target.position);
     }
 
     public void ProcessLook(Vector2 input)
     {
         yaw += input.x * sensitivity;
         pitch -= input.y * sensitivity;
+
         pitch = Mathf.Clamp(pitch, minPitch, maxPitch);
 
         Quaternion rotation = Quaternion.Euler(pitch, yaw, 0f);

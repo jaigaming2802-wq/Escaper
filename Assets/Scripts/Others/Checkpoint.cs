@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
@@ -11,8 +12,11 @@ public class Checkpoint : MonoBehaviour
 
         if (checkpointCollider != null)
         {
+            Transform cameraTransform = Camera.main.transform;
+
             CheckpointManager.Instance.SetCheckpoint(
-                checkpointCollider.bounds.center
+                checkpointCollider.bounds.center,
+                cameraTransform.eulerAngles.y
             );
         }
     }

@@ -26,10 +26,18 @@ public class InputManager1 : MonoBehaviour
 
     void LateUpdate()
     {
-        if (look != null)
-        {
-            look.ProcessLook(lookInput);
-        }
+        if (look == null)
+            return;
+
+        Vector2 mouseInput = Mouse.current != null
+            ? Mouse.current.delta.ReadValue()
+            : Vector2.zero;
+
+        Vector2 joystickInput = lookInput * (Time.deltaTime * 1000f);
+
+        Vector2 finalInput = mouseInput + joystickInput;
+
+        look.ProcessLook(finalInput);
     }
 
     void OnEnable()
